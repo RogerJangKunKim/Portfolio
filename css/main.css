@@ -1,0 +1,69 @@
+body {
+	height: 1000px;
+	background: url(bluewalls.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+}
+#links{
+
+}
+#sociallink{
+	text-align: center;
+	color: white;
+}
+a:hover{
+	color: white;
+}
+
+.linkdiv{
+	color: white;
+	width: 80px;
+	padding: 0px 0px 0px 5px;
+	height: 20px;
+	margin: 0px 0px 0px 75px;
+	display: inline-block;
+}
+#webnav{
+	width: 1270px;
+	text-align: center;
+}
+.webnav{
+	display: inline-block;
+	margin: 0px 0px 0px 100px;
+	text-align: center;
+}
+#headerdiv{
+	font-family: 'PT Sans Narrow', sans-serif;
+	height: 350px;
+	color: black;
+	font-size: 50px;
+	width: 1365px;
+	background: rgba(200, 80, 0, 0.4); 
+	padding: 20px 0px 0px 0px;
+	margin: 80px 0px 0px 0px;
+}
+#h3head{
+	padding: 20px 0px 0px 0px;
+	width: 1349px;
+	margin: 0px 0px 0px 0px;
+	height: 70px;
+	text-align: center;
+}
+#h4head{
+	margin: 0px 0px 0px 0px;
+	width: 1349px;
+	height: 50px;
+	text-align: center;
+}
+#quote{
+	padding: 20px 0px 0px 0px;
+	width: 1349px;
+	text-align: center;
+	height: 0px;
+	font-size: 30px;
+}
+ul{
+	display: inline-block;
+}
