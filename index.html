@@ -1,55 +1,125 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Moi Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
-</head>
-<body style="background-image:url(bluewall.jpg)">
-	<div id="links">
-		<ul>
-			<div id="sociallink">
-				<li class="linkdiv">
-					<a href="http://www.facebook.com">
-						<strong>Facebook</strong>
-					</a>
-				</li>
-				<li class="linkdiv">
-					<a href="http://twitter.com">
-						<strong>Twitter</strong>
-					</a>
-				</li>
-				<li class="linkdiv">
-					<a href="http://instagram.com/rogerkeem">
-						<strong>Instagram</strong>
-					</a>
-				</li>
-			</div>
-			<div id="webnav">
-				<li class="webnav">
-					<a href="#links">Home</a>
-				</li>
-				<li class="webnav">
-					<a href="#aboutme"> About Me</a>
-				</li>
-				<li class="webnav">
-					<a href="#projects">Projects</a>
-				</li>
-			</div>
-		</ul>
-	</div>
-	<div id="headerdiv">
-		<h1 id="h3head">
-			Roger
-		</h1>
-		<h2 id="h4head">
-			Kim
-		</h2>
-		<div id="quote">
-			<p>"Information is not knowledge. The only source of knowledge is experience" 
-			<p>- Albert Einstein
-		</div>
-	</div>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Roger Kim</title>
+       <link rel="stylesheet" href="css/style.css"/>
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	   <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<script>
+   
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+
+ </head> 
+	
+<body>
+<!----- LINK BACK TO THE TUTORIAL--->  
+<div id="demo_back">
+<div id="nav1">
+	<ul>
+		<li>
+			<a href="http://Facebook.com" >
+				Facebook
+			</a>
+		</li>
+		<li>
+			<a href="http://twitter.com">
+				Twitter
+			</a>
+		</li>
+		<li>
+			<a href="http://Instagram.com/rogerkeem">
+				Instagram
+			</a>
+		</li>
+	</ul>
+</div>
+</div>
+
+<!----- HEADER START--->   
+<header id="header">
+<div class="content">
+
+<div id="logo"><a href=""> Portfolio </a></div>
+
+<nav id="nav">
+	<ul>
+		<li>
+			<a href="#slide1" class="active"title="Next Section" >
+				Roger Kim
+			</a>
+		</li>
+		<li>
+			<a href="#slide2" title="Next Section">
+				About Me
+			</a>
+		</li>
+		<li>
+			<a href="#slide3" title="Next Section">
+				Projects
+			</a>
+		</li>
+	</ul>
+</nav>
+</div>
+</header>	
+<!----- HEADER END--->   
+
+<!----- SLIDES START --->   	
+	<div id="slide1">
+		<div class="content">
+            <h1>Roger</h1>
+		    <h1>Kim</h1>
+		    <h2>" The true sign of intelligence is not knowledge but imagination. "</h2>
+		</div> 
+    </div> 
+
+	<div id="slide2">
+		<div class="content" >
+            <div class="quotes_container">
+		    <h3 class="quotes">“Then the Grinch thought of something he hadn't before! What if Christmas, he thought, doesn't come from a store. What if Christmas...perhaps...means a little bit more!”</h3>
+		</div> 
+		</div> 
+    </div> 
+	
+	
+   <div id="slide3">
+		<div class="content">
+			   <div class="quotes_container">
+			   
+		    </div> 
+		</div> 
+    </div> 
+	
+	
+	
+<!----- SLIDES END --->
+
 </body>
 </html>
