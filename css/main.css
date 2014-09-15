@@ -1,5 +1,6 @@
 body {
     height: 1000px;
+    width: 100%;
 }
 #links{
 padding: 0px;
@@ -32,9 +33,9 @@ a:active {
 .linkdiv{
     color: white;
     width: 80px;
-    padding: 0px 90px 0px 5px;
+    padding: 0px 50px 0px 5px;
     height: 20px;
-    margin: 0px 20px 0px 40px;
+    margin: 0px 40px 0px 40px;
     display: inline-block;
     height: 50px;
     text-align: center;

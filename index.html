@@ -5,13 +5,17 @@
 	<title>Moi Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" media="screen and (min-width: 0px)" type="text/css" href="css/small.css">
+	<link rel="stylesheet" media="screen and (min-width: 1000px)" type="text/css" href="css/medium.css">
+	<link rel="stylesheet" media="screen and (min-width: 1400px)" type="text/css" href="css/large.css">
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+	</style>
 </head>
-<body class="">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <div id="headerdiv" class="" style="background-image:url(img/bluewall.jpg)">
-            <div id="links">
+<body id="body">
+	<div class="conatiner">
+        <div id="headerdiv" class="col-xs-12" style="background-image:url(img/bluewall.jpg)">
+            <div class="col-xs-12" id="links">
                     <ul id="sociallink">
                         <li class="linkdiv">
                             <a href="http://www.facebook.com/roger.kim.9">
@@ -42,7 +46,7 @@
                     </ul>
             </div>
             <div>
-                <div id="orangeop">
+                <div class="col-xs-12" id="orangeop">
                     <h1 id="h3head">
                             Roger
                     </h1>
@@ -56,7 +60,7 @@
                 </div>
             </div>
 	</div>
-        <div id="aboutme" style="background-image:url(img/dragon.jpg)">   
+        <div class="col-xs-12" id="aboutme" style="background-image:url(img/dragon.jpg)">   
             <ul id="sociallink">
                 <div id="webnav">
                     <li class="webnav">
@@ -70,14 +74,14 @@
                     </li>
                 </div>
             </ul>
-            <div id="blackop">
+            <div class="col-xs-12" id="blackop">
                 <h1 id="helloabout">Hello there!</h1> My name is Roger Kim. <br>I am a sophmore attending PHS.<br>I recently started to learn the bass guitar. I think the bass guitar is so cool! <br> I like play a lot of video games especially League of Legends.<br> I think dragons and mythology is some really cool stuff. <br> Anywho, or shall I say anypoo? :) See you later.
                 
                 
             </div>
         </div>
-        <div id="projects" style="background-image:url(img/swirl.jpg)">   
-            <ul id="sociallink">
+        <div class="col-xs-12" id="projects" style="background-image:url(img/swirl.jpg)">   
+            <ul class="col-xs-12" id="sociallink">
                 <div id="webnav">
                     <li class="webnav">
                         <a href="#links">Home</a>
@@ -90,7 +94,7 @@
                     </li>
                 </div>
             </ul>
-            <div id="whiteop">
+            <div class="col-xs-12" id="whiteop">
                 <div id="whitediv">
                     <h1 id="whiteopproj">Projects</h1> <br id="proj">Just a display of my projects.
                 </div>
@@ -105,5 +109,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
