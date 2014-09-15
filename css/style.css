@@ -36,7 +36,7 @@ h2 {
 h3 {
 	font-family: 'Ubuntu', sans-serif;
    	font-weight: normal;
-   	font-size: 16px;
+   	font-size: 20px;
    	text-align: center;
    	margin: 5px 0;
 	padding: 0;
@@ -148,18 +148,20 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide2{
+	background: url(../img/dragon.jpg) 50% 0 no-repeat fixed;
 	background-color: #fff;
-	color: #333333;
+	color: #fff;
 	height: 300px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 200px 0;
+	background-size: cover;
 }
 
 #slide3{
-	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/border.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
-	height: 600px;
+	height: 500px;
 	padding: 170px 0 0 0;	
 	background-size: cover;
 }
