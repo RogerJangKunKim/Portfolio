@@ -1,5 +1,6 @@
 body{
 	background-color: black;
+	background-image: url(../img/blacktiles.png);
 }
 .navbar{
     color: white;
@@ -28,6 +29,10 @@ a:active {
 }
 .homenav{
 	display: inline-block;
+    text-align: center;
+}
+.modalnav{
+	text-align: center;
 }
 .webpage{
 	background-color: black;
@@ -39,7 +44,6 @@ a:active {
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    text-align: center;
 }
 .opback{
 	padding: 100px 0px 0px 0px;
@@ -55,4 +59,19 @@ a:active {
     .webpage{
     	width: 100%;
     }
+}
+@media (max-width: 320px) {
+	body {
+	}
+	.navbar{
+		width: 100%;
+		text-align: center;
+	}
+    .webpage{
+    	width: 100%;
+    }
+    .homenav{
+	display: inline-block;
+    text-align: center;
+}
 }
