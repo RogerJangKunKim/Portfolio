@@ -2,6 +2,9 @@ body{
 	background-color: black;
 	background-image: url(../img/blacktiles.png);
 }
+ul{
+	padding: 0;
+}
 .navbar{
     color: white;
     text-align: center;
@@ -27,6 +30,9 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
+.pageulnav{
+	text-align: center;
+}
 .homenav{
 	display: inline-block;
     text-align: center;
@@ -38,6 +44,7 @@ a:active {
 	background-color: black;
 	height: 100%;
 	color: white;
+	background: no-repeat center center fixed; 
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -51,6 +58,7 @@ a:active {
 .opaque{
     background: rgba(400, 400, 400, 0.4); 
     height: 450px;
+    text-align: center;
 }
 @media screen and (max-width: 959px){
 	.navbar{
@@ -74,4 +82,7 @@ a:active {
 	display: inline-block;
     text-align: center;
 }
+	#home{
+		width: 100%;
+	}
 }
