@@ -1,0 +1,58 @@
+body{
+	background-color: black;
+}
+.navbar{
+    color: white;
+    text-align: center;
+}
+.links{
+	background-color: white;
+}
+a:link {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+a:active {
+    text-decoration: underline;
+}
+.homenav{
+	display: inline-block;
+}
+.webpage{
+	background-color: black;
+	height: 100%;
+	color: white;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.opback{
+	padding: 100px 0px 0px 0px;
+}
+.opaque{
+    background: rgba(400, 400, 400, 0.4); 
+    height: 450px;
+}
+@media screen and (max-width: 959px){
+	.navbar{
+		width: 100%;
+	}
+    .webpage{
+    	width: 100%;
+    }
+}
