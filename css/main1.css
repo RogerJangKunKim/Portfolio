@@ -5,6 +5,9 @@ body{
 ul{
 	padding: 0;
 }
+h1{
+	margin: 25px;
+}
 p{
 	margin: 50px;
 }
@@ -68,8 +71,8 @@ a:active {
     text-align: center;
     border: 5px solid white;
 }
-#quote{
-	font-size: 35px;
+.text{
+	font-size: 30px;
 	color: black;
 }
 @media screen and (max-width: 959px){
