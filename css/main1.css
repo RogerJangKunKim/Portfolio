@@ -75,16 +75,14 @@ a:active {
 	font-size: 30px;
 	color: black;
 }
-@media screen and (max-width: 959px){
-	.navbar{
-		width: 100%;
-	}
-    .webpage{
-    	width: 100%;
-    }
-}
 @media (max-width: 320px) {
 	body {
+	}
+	h1{
+		margin: 10px;
+	}
+	p{
+		margin: 25px;
 	}
 	.navbar{
 		width: 100%;
@@ -96,8 +94,14 @@ a:active {
     .homenav{
 	display: inline-block;
     text-align: center;
-}
+	}
+	.opaque{
+		height:380px;
+	}
 	#home{
 		width: 100%;
+	}
+	.text{
+		font-size: 20px;
 	}
 }
