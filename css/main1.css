@@ -5,6 +5,9 @@ body{
 ul{
 	padding: 0;
 }
+p{
+	margin: 50px;
+}
 .navbar{
     color: white;
     text-align: center;
@@ -64,6 +67,10 @@ a:active {
     height: 450px;
     text-align: center;
     border: 5px solid white;
+}
+#quote{
+	font-size: 35px;
+	color: black;
 }
 @media screen and (max-width: 959px){
 	.navbar{
