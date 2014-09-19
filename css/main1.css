@@ -43,6 +43,9 @@ a:active {
 	display: inline-block;
     text-align: center;
 }
+#homeul{
+	padding:10px 0px 0px 0px;
+}
 .modalnav{
 	text-align: center;
 	text-decoration: none;
