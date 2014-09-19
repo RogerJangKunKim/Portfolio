@@ -24,7 +24,7 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-    color: orange;
+    color: #285e8e;
 }
 
 a:active {
