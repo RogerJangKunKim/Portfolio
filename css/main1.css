@@ -81,7 +81,7 @@ a:active {
 }
 #carousel-example-generic{
 	width: 500px;
-	margin: 0px 50% 0px 0px;
+	margin-left: 25%; 
 }
 @media (max-width: 320px) {
 	body {
